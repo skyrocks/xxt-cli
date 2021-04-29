@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+//备份备份备份
+
 const program = require('commander');       //设计命令行
 const download = require('download-git-repo');      //github仓库下载
 const inquirer = require('inquirer');       //命令行答询
