@@ -51,16 +51,6 @@ program
         message: '请输入项目名称',
         default: projectName
       }, {
-        type: 'input',
-        name: 'description',
-        message: '请输入项目简介',
-        default: ''
-      }, {
-        type: 'input',
-        name: 'author',
-        message: '请输入作者名称',
-        default: ''
-      }, {
         type: 'list',
         name: 'templateName',
         message: '请选择项目模版',
