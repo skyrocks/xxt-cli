@@ -1,10 +1,10 @@
 {
-  "name": "xt-cli",
+  "name": "xxt-cli",
   "version": "1.0.0",
   "description": "Github模版脚手架",
   "main": "index.js",
   "bin": {
-    "xt": "index.js"
+    "xxt": "index.js"
   },
   "scripts": {
     "exec": "node index.js"
@@ -24,6 +24,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/skyrocks/xt-cli"
+    "url": "https://github.com/skyrocks/xxt-cli"
   }
 }

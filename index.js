@@ -10,7 +10,7 @@ const logSymbols = require('log-symbols'); //命令行输出符号
 const fs = require('fs');
 const package = require('./package.json');
 
-const version = `xt cli v${package.version}`;
+const version = `xxt cli v${package.version}`;
 
 const templates = {
   'v3a': {
