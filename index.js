@@ -15,6 +15,12 @@ const version = `xxt cli v${package.version}`;
 const templates = {
   'v3a': {
     downloadUrl: 'github:skyrocks/v3a#main'
+  },
+  'v2e': {
+    downloadUrl: 'github:skyrocks/v2e#main'
+  },
+  'v3v': {
+    downloadUrl: 'github:skyrocks/v3v#main'
   }
 };
 
@@ -56,7 +62,8 @@ program
         message: '请选择项目模版',
         choices: [
           `v3a (${chalk.yellow('Vue3 Antd')})`,
-          `v3e (${chalk.yellow('Vue3 Element-Plus')})`
+          `v2e (${chalk.yellow('Vue2 Element')})`,
+          `v3v (${chalk.yellow('Vue3 Element-Plus, without dynamic router, without layout')})`
         ],
         filter: function (val) {
           return val.substr(0, 3);
