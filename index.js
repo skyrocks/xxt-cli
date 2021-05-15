@@ -13,6 +13,9 @@ const package = require('./package.json');
 const version = `xxt cli v${package.version}`;
 
 const templates = {
+  'v3e': {
+    downloadUrl: 'github:skyrocks/v3e#main'
+  },
   'v3a': {
     downloadUrl: 'github:skyrocks/v3a#main'
   },
@@ -61,8 +64,9 @@ program
         name: 'templateName',
         message: '请选择项目模版',
         choices: [
-          `v3a (${chalk.yellow('Vue3 Antd')})`,
-          `v2e (${chalk.yellow('Vue2 Element')})`,
+          `v3e (${chalk.yellow('Vue3 Element-Plus Admin')})`,
+          `v3a (${chalk.yellow('Vue3 Antd Admin')})`,
+          `v2e (${chalk.yellow('Vue2 Element Admin')})`,
           `v3v (${chalk.yellow('Vue3 Element-Plus, without dynamic router, without layout')})`
         ],
         filter: function (val) {
